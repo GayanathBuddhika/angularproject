@@ -1,0 +1,24 @@
+<div>
+  <p>Add new server or blue print</p>
+  <div>
+    
+    <label>server name</label>
+    <input type="text" [(ngModel)]="newServerName" id="newServerName">
+    
+  </div>
+  
+  <div>
+    
+      <label  >server content</label>
+      <input type="text" [(ngModel)]="newServerContent" id="newServerContent">
+      
+    </div>
+    <br>
+    <div>
+      <button (click)="onAddServer()">Add Server</button>
+    </div>
+    
+    <div>
+        <button (click)="onAddBluePrint()">Add BluePrint</button>
+      </div>
+</div>
