@@ -1,6 +1,6 @@
 <div class="container">
   <div>
-    <app-cockpit></app-cockpit>
+    <app-cockpit (serverCreated)="onServerCreated($event)" (bluprintCreated)="onBluprintCreated($event)"></app-cockpit>
   </div>
   <hr>
 <div>
