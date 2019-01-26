@@ -10,7 +10,7 @@ this project wil help you to understand how how binding data between components 
    
 # cockpit-component provide output to the appcomponent
  
- for that use @Output in the  cockpit-component.ts. this component get data from the their html file and send that data to the appcomponent
+ for that use @Output in the  cockpit-component.ts. this component get data from their html file and send that data to the appcomponent
    
          + cockpit-component.html
 
@@ -116,7 +116,7 @@ this project wil help you to understand how how binding data between components 
                     
                
        
- # appComponent is the root component for both server-element-component and cockpit-componen. That handle that both component data.
+ # appComponent is the root component for both server-element-component and cockpit-component. That handle both component data.
     
     
       
